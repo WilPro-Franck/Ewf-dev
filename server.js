@@ -6,7 +6,7 @@ const app = express();
 const nodemailer = require('nodemailer');
 
 const PORT = process.env.PORT || 3000; // utiliser le PORT fourni par l'environnement, sinon utiliser 3000 par defaut
-const HOST = process.env.NODE_EVN === 'production' ? '0.0.0.0' : 'localhost';
+const HOST = '0.0.0.0'
 
 // configuration pour Nodemailer
 const transporter = nodemailer.createTransport({

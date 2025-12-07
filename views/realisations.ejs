@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Realisations
+    </title>
+</head>
+<style>
+    header {
+        background-color: rgb(7, 11, 142);
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    header nav h1 {
+        margin: 0;
+        font-size: 80px;
+        color: rgb(1, 1, 10);
+        font-weight: bolder;
+
+    }
+
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 400px;
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        justify-content: center;
+        margin: 0px;
+
+    }
+
+    header nav button {
+        border: 1px solid;
+        border-radius: 3px;
+        background-color: white;
+        padding: 15px 20px;
+        color: rgb(4, 7, 97);
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .Projet {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 5%;
+        margin: 0;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .projetplans {
+        flex: 1;
+        background-color: rgb(224, 202, 239);
+
+    }
+
+    .projetplans img {
+        width: 100%;
+        height: 100%;
+        transition: filter 0, 5s ease-in-out;
+        filter: blur(0px);
+
+    }
+
+    .projetplans img:hover {
+        filter: blur(1px);
+    }
+
+    .projetplans a {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0;
+        color: gray;
+        text-decoration: underline;
+    }
+
+    .projetplans p {
+        color: gray;
+        padding: 0;
+        font-size: 17px;
+    }
+
+    .projetplans h2 {
+        color: black;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: rgb(15, 2, 128);
+        padding: 10px;
+
+    }
+
+    p {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+
+            <h1>EWF-Dev</h1>
+            <div>
+                <a href="/">Acceuil</a>
+                <a href="/realisations">Realisations</a>
+                <a href="/services">Services</a>
+                <button onclick="location.href='/contacts'">Contacts</button>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <h1>NOS REALISATION</h1>
+        <P>Découvrir notre expertise de Developpement digital</P>
+        <div class="Projet">
+            <div class="projetplans">
+                <a href=""><img src="i2.jpeg" alt="illustrative"></a>
+                <h2>Site web de M.EWOUKEM pour son entreprise ENYY Studio</h2>
+                <p>Des plan personalisés pour chaque faimille. Construire votre maison de rève</p>
+                <a href="">En savoir plus</a>
+            </div>
+            <div class="projetplans">
+                <a href=""><img src="i3.jpeg" alt="illustrative"></a>
+                <h2>REalisation d'une application "SQUAT-Line" </h2>
+                <p>Specialisé deans la distribution des visas pour des pays de l'etranger</p>
+                <a href="">En savoir plus</a>
+            </div>
+            <div class="projetplans">
+                <a href=""><img src="i7.jpeg" alt="illustrative"></a>
+                <h2>systeme de gestion d'un etablissement "college MATURE-LA GLOIRE"</h2>
+                <p>Une gestion des activités, des enseignants de l'etablissement et gestion des notes des élèves</p>
+                <a href="">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

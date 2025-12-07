@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts </title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/1576d4f605.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header-nav">
+        <div class="logo">
+            <a href="/">
+                <img src="/images/bba.png" alt="logo EWF-Dev" class="site-icon header-icon">
+                <span class="logo-text">EWF-Dev</span></a>
+        </div>
+
+        <nav class="nav-links">
+            <a href="/">Acceuil</a>
+            <a href="/services">Services</a>
+            <a href="/contacts" style="    background-color: white;
+    color: #021d39;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vw;">Contacts</a>
+            <a href="#"><span style="font-size: 1.2em;margin-left: 10px;"> @</span></a>
+        </nav>
+    </header>
+    <div class="formulaires">
+        <div class="formu">
+            <form action="/contacts" method="POST">
+                <h1>CONTACTEZ-NOUS</h1>
+                <p style="color: #000;">Nous sommes ici pour vous aider, laissez nous un messages</p>
+                <label for="noms">Nom :</label><br>
+                <input type="text" id="Nom" name="Nom" placeholder="Entrer votre nom" /><br><br>
+                <label for="Email">Email address :</label><br>
+                <input type="text" id="Mail" name="Mail" placeholder="nom@gmail.com" /><br><br>
+                <label for="messages">Message :</label><br>
+                <textarea type="text" id="Message" name="Message" rows="10" cols="50"
+                    placeholder="Decrivrez clairement en auelaues mots ce dont vous avez besoin."></textarea><br><br>
+                <button type="submit" name='envoie' value="Envoyer">Envoyer</button>
+            </form>
+        </div>
+        <div class="formu">
+            <img src="/images/local.jpeg" alt="illustrative" width="100%" height="500px">
+        </div>
+    </div>
+    <footer class="footer-section">
+        <div class="entete">
+            <div>
+                <a href="/">Accueil</a>
+            </div>
+            <div>
+                <a href="/services">Services</a>
+            </div>
+            <div>
+                <a href="/contacts">Contacts</a>
+            </div>
+        </div>
+        <div class="footer-section1">
+            <div class=" footer-social">
+                <img src="/images/bba.png" alt="logo EWF-Dev ">
+            </div>
+
+            <div class=" footer-social">
+                <a href="https://www.facebook.com/willy.elat.37"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a
+                    href="https://wa.me/237654551128?text=Bonjour%2c%20j'aimerais%20en%20savoir-plus%20sur%20vos%20services"><i
+                        class="fab fa-whatsapp fa-2x"></i></a>
+                <a href="https://www.instagram.com/wilamo21"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <div class=" footer-social">
+
+                <a href="mailto:williamoelat12@gmail.com"> Email: williamoelat12@gmail.com</a>
+            </div>
+        </div>
+        <div class="fin">
+            <p style="margin-top: 40px;">&copy; 2025 EWF-Dev. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

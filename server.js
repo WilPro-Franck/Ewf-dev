@@ -12,7 +12,7 @@ const HOST = process.env.NODE_EVN === 'production' ? '0.0.0.0' : 'localhost';
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'williamoelat12@gmail.com',
+        user: process.env.EMAILWILLY,
         pass: 'tlql rbmz oeyp hnap'
     }
 });
